@@ -1,1 +1,1 @@
-# CarPrice_LinearRegression
+## In this project, I've used Linear regression to predict car prices and explained throughly the steps I've followed to process and clean the data and train my model to give precise results. 
