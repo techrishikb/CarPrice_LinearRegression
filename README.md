@@ -28,5 +28,5 @@ The common heuristic we follow for the VIF values is:
 > 5:  Can be okay, but it is worth inspecting.
 < 5: Good VIF value. No need to eliminate this variable.
 # Feature selection
-Selecting the optimal set from a pool of given features, many of which might be redundant becomes an important task
+Selecting the optimal set from a pool of given features, many of which might be redundant becomes an important task.
 
