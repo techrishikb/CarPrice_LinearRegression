@@ -30,3 +30,12 @@ The common heuristic we follow for the VIF values is:
 # Feature selection
 Selecting the optimal set from a pool of given features, many of which might be redundant becomes an important task.
 
+
+# Optimal Model Selection
+To get the optimal model, you can always try all the possible combinations of independent variables and see which model fits the best. But this method is obviously, time-consuming and infeasible. Hence, you need some other method to get a decent model. This is where manual feature elimination comes in, where you:
+
+Build the model with all the features
+Drop the features that are least helpful in prediction (high p-value)
+Drop the features that are redundant (using correlations and VIF)
+Rebuild model and repeat
+
