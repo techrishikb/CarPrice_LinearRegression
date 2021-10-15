@@ -9,12 +9,11 @@ RSS: Residual Sum of Squares
 TSS: Total Sum of Squares. R-squared value tells us exactly how much variance in the data has been explained by the model. Suppose, the R-squared is about 0.816 which means that the model is able to explain 81.6% of the variance which is pretty good.
 
 The new aspects to consider when moving from simple to multiple linear regression are:
-
-Overfitting
+# Overfitting:
 As you keep adding the variables, the model may become far too complex
 It may end up memorising the training data and will fail to generalise
 A model is generally said to overfit when the training accuracy is high while the test accuracy is very low
-Multicollinearity
-Associations between predictor variables.
-Feature selection
+# Multicollinearity
+Multicollinearity refers to the phenomenon of having related predictor variables in the input dataset. In simple terms, in a model which has been built using several independent variables, some of these variables might be interrelated, due to which the presence of that variable in the model is redundant. You drop some of these related independent variables as a way of dealing with multicollinearity.
+# Feature selection
 Selecting the optimal set from a pool of given features, many of which might be redundant becomes an important task
