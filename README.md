@@ -17,3 +17,14 @@ A model is generally said to overfit when the training accuracy is high while th
 Multicollinearity refers to the phenomenon of having related predictor variables in the input dataset. In simple terms, in a model which has been built using several independent variables, some of these variables might be interrelated, due to which the presence of that variable in the model is redundant. You drop some of these related independent variables as a way of dealing with multicollinearity.
 # Feature selection
 Selecting the optimal set from a pool of given features, many of which might be redundant becomes an important task
+Two basic ways of dealing with multicollinearity
+Looking at pairwise correlations
+Looking at the correlation between different pairs of independent variables
+Checking the Variance Inflation Factor (VIF)
+Sometimes pairwise correlations aren't enough
+Instead of just one variable, the independent variable might depend upon a combination of other variables
+VIF calculates how well one independent variable is explained by all the other independent variables combined
+The common heuristic we follow for the VIF values is:
+> 10:  Definitely high VIF value and the variable should be eliminated.
+> 5:  Can be okay, but it is worth inspecting.
+< 5: Good VIF value. No need to eliminate this variable.
