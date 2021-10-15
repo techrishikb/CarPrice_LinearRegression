@@ -6,4 +6,4 @@ Among the multiple lines passing through the scattered data, we need to find the
 
 The strength of a linear regression model is mainly explained by R²,  where R² = 1 - (RSS / TSS)
 RSS: Residual Sum of Squares
-TSS: Total Sum of Squares
+TSS: Total Sum of Squares. R-squared value tells us exactly how much variance in the data has been explained by the model.
