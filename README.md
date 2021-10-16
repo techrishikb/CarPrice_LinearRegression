@@ -39,3 +39,6 @@ Drop the features that are least helpful in prediction (high p-value)
 Drop the features that are redundant (using correlations and VIF)
 Rebuild model and repeat
 
+# MULTIPLE LINEAR REGRESSION
+
+
